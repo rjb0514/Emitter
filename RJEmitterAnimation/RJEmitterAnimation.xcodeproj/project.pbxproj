@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C53FC0024BC3CFC005EC2A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C53FBFF24BC3CFC005EC2A6 /* AppDelegate.m */; };
+		0C53FC0324BC3CFC005EC2A6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C53FC0224BC3CFC005EC2A6 /* SceneDelegate.m */; };
+		0C53FC0624BC3CFC005EC2A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C53FC0524BC3CFC005EC2A6 /* ViewController.m */; };
+		0C53FC0924BC3CFC005EC2A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C53FC0724BC3CFC005EC2A6 /* Main.storyboard */; };
+		0C53FC0B24BC3CFF005EC2A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C53FC0A24BC3CFF005EC2A6 /* Assets.xcassets */; };
+		0C53FC0E24BC3CFF005EC2A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C53FC0C24BC3CFF005EC2A6 /* LaunchScreen.storyboard */; };
+		0C53FC1124BC3CFF005EC2A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C53FC1024BC3CFF005EC2A6 /* main.m */; };
+		0C53FC1924BC3D3F005EC2A6 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C53FC1824BC3D3F005EC2A6 /* BaseViewController.m */; };
+		0C53FC1C24BC3D6E005EC2A6 /* RainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C53FC1B24BC3D6E005EC2A6 /* RainViewController.m */; };
+		0C53FC1F24BC45C5005EC2A6 /* SnowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C53FC1E24BC45C5005EC2A6 /* SnowViewController.m */; };
+		0C53FC2224BC4963005EC2A6 /* ColorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C53FC2124BC4963005EC2A6 /* ColorsViewController.m */; };
+		0C53FC2524BC56C9005EC2A6 /* HeartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C53FC2424BC56C9005EC2A6 /* HeartViewController.m */; };
+		0C53FC2824BC587A005EC2A6 /* FireViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C53FC2724BC587A005EC2A6 /* FireViewController.m */; };
+		0C53FC2B24BC595D005EC2A6 /* FireworksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C53FC2A24BC595D005EC2A6 /* FireworksViewController.m */; };
+		0C53FC2E24BC5A3C005EC2A6 /* LikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C53FC2D24BC5A3C005EC2A6 /* LikeViewController.m */; };
+		0C53FC3124BC5A4E005EC2A6 /* LikeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C53FC3024BC5A4E005EC2A6 /* LikeButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C53FBFB24BC3CFC005EC2A6 /* RJEmitterAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RJEmitterAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C53FBFE24BC3CFC005EC2A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C53FBFF24BC3CFC005EC2A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C53FC0124BC3CFC005EC2A6 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		0C53FC0224BC3CFC005EC2A6 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		0C53FC0424BC3CFC005EC2A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C53FC0524BC3CFC005EC2A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C53FC0824BC3CFC005EC2A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C53FC0A24BC3CFF005EC2A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C53FC0D24BC3CFF005EC2A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C53FC0F24BC3CFF005EC2A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C53FC1024BC3CFF005EC2A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C53FC1724BC3D3F005EC2A6 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		0C53FC1824BC3D3F005EC2A6 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		0C53FC1A24BC3D6E005EC2A6 /* RainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RainViewController.h; sourceTree = "<group>"; };
+		0C53FC1B24BC3D6E005EC2A6 /* RainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RainViewController.m; sourceTree = "<group>"; };
+		0C53FC1D24BC45C5005EC2A6 /* SnowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnowViewController.h; sourceTree = "<group>"; };
+		0C53FC1E24BC45C5005EC2A6 /* SnowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnowViewController.m; sourceTree = "<group>"; };
+		0C53FC2024BC4963005EC2A6 /* ColorsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorsViewController.h; sourceTree = "<group>"; };
+		0C53FC2124BC4963005EC2A6 /* ColorsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorsViewController.m; sourceTree = "<group>"; };
+		0C53FC2324BC56C9005EC2A6 /* HeartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeartViewController.h; sourceTree = "<group>"; };
+		0C53FC2424BC56C9005EC2A6 /* HeartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeartViewController.m; sourceTree = "<group>"; };
+		0C53FC2624BC587A005EC2A6 /* FireViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FireViewController.h; sourceTree = "<group>"; };
+		0C53FC2724BC587A005EC2A6 /* FireViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FireViewController.m; sourceTree = "<group>"; };
+		0C53FC2924BC595D005EC2A6 /* FireworksViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FireworksViewController.h; sourceTree = "<group>"; };
+		0C53FC2A24BC595D005EC2A6 /* FireworksViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FireworksViewController.m; sourceTree = "<group>"; };
+		0C53FC2C24BC5A3C005EC2A6 /* LikeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LikeViewController.h; sourceTree = "<group>"; };
+		0C53FC2D24BC5A3C005EC2A6 /* LikeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LikeViewController.m; sourceTree = "<group>"; };
+		0C53FC2F24BC5A4E005EC2A6 /* LikeButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LikeButton.h; sourceTree = "<group>"; };
+		0C53FC3024BC5A4E005EC2A6 /* LikeButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LikeButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C53FBF824BC3CFC005EC2A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C53FBF224BC3CFC005EC2A6 = {
+			isa = PBXGroup;
+			children = (
+				0C53FBFD24BC3CFC005EC2A6 /* RJEmitterAnimation */,
+				0C53FBFC24BC3CFC005EC2A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C53FBFC24BC3CFC005EC2A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C53FBFB24BC3CFC005EC2A6 /* RJEmitterAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C53FBFD24BC3CFC005EC2A6 /* RJEmitterAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				0C53FBFE24BC3CFC005EC2A6 /* AppDelegate.h */,
+				0C53FBFF24BC3CFC005EC2A6 /* AppDelegate.m */,
+				0C53FC0124BC3CFC005EC2A6 /* SceneDelegate.h */,
+				0C53FC0224BC3CFC005EC2A6 /* SceneDelegate.m */,
+				0C53FC0424BC3CFC005EC2A6 /* ViewController.h */,
+				0C53FC0524BC3CFC005EC2A6 /* ViewController.m */,
+				0C53FC1724BC3D3F005EC2A6 /* BaseViewController.h */,
+				0C53FC1824BC3D3F005EC2A6 /* BaseViewController.m */,
+				0C53FC1A24BC3D6E005EC2A6 /* RainViewController.h */,
+				0C53FC1B24BC3D6E005EC2A6 /* RainViewController.m */,
+				0C53FC1D24BC45C5005EC2A6 /* SnowViewController.h */,
+				0C53FC1E24BC45C5005EC2A6 /* SnowViewController.m */,
+				0C53FC2024BC4963005EC2A6 /* ColorsViewController.h */,
+				0C53FC2124BC4963005EC2A6 /* ColorsViewController.m */,
+				0C53FC2324BC56C9005EC2A6 /* HeartViewController.h */,
+				0C53FC2424BC56C9005EC2A6 /* HeartViewController.m */,
+				0C53FC2624BC587A005EC2A6 /* FireViewController.h */,
+				0C53FC2724BC587A005EC2A6 /* FireViewController.m */,
+				0C53FC2924BC595D005EC2A6 /* FireworksViewController.h */,
+				0C53FC2A24BC595D005EC2A6 /* FireworksViewController.m */,
+				0C53FC2C24BC5A3C005EC2A6 /* LikeViewController.h */,
+				0C53FC2D24BC5A3C005EC2A6 /* LikeViewController.m */,
+				0C53FC2F24BC5A4E005EC2A6 /* LikeButton.h */,
+				0C53FC3024BC5A4E005EC2A6 /* LikeButton.m */,
+				0C53FC0724BC3CFC005EC2A6 /* Main.storyboard */,
+				0C53FC0A24BC3CFF005EC2A6 /* Assets.xcassets */,
+				0C53FC0C24BC3CFF005EC2A6 /* LaunchScreen.storyboard */,
+				0C53FC0F24BC3CFF005EC2A6 /* Info.plist */,
+				0C53FC1024BC3CFF005EC2A6 /* main.m */,
+			);
+			path = RJEmitterAnimation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C53FBFA24BC3CFC005EC2A6 /* RJEmitterAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C53FC1424BC3CFF005EC2A6 /* Build configuration list for PBXNativeTarget "RJEmitterAnimation" */;
+			buildPhases = (
+				0C53FBF724BC3CFC005EC2A6 /* Sources */,
+				0C53FBF824BC3CFC005EC2A6 /* Frameworks */,
+				0C53FBF924BC3CFC005EC2A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RJEmitterAnimation;
+			productName = RJEmitterAnimation;
+			productReference = 0C53FBFB24BC3CFC005EC2A6 /* RJEmitterAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C53FBF324BC3CFC005EC2A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = JianBin;
+				TargetAttributes = {
+					0C53FBFA24BC3CFC005EC2A6 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 0C53FBF624BC3CFC005EC2A6 /* Build configuration list for PBXProject "RJEmitterAnimation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C53FBF224BC3CFC005EC2A6;
+			productRefGroup = 0C53FBFC24BC3CFC005EC2A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C53FBFA24BC3CFC005EC2A6 /* RJEmitterAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C53FBF924BC3CFC005EC2A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C53FC0E24BC3CFF005EC2A6 /* LaunchScreen.storyboard in Resources */,
+				0C53FC0B24BC3CFF005EC2A6 /* Assets.xcassets in Resources */,
+				0C53FC0924BC3CFC005EC2A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C53FBF724BC3CFC005EC2A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C53FC0624BC3CFC005EC2A6 /* ViewController.m in Sources */,
+				0C53FC1F24BC45C5005EC2A6 /* SnowViewController.m in Sources */,
+				0C53FC2824BC587A005EC2A6 /* FireViewController.m in Sources */,
+				0C53FC2224BC4963005EC2A6 /* ColorsViewController.m in Sources */,
+				0C53FC1924BC3D3F005EC2A6 /* BaseViewController.m in Sources */,
+				0C53FC2524BC56C9005EC2A6 /* HeartViewController.m in Sources */,
+				0C53FC1C24BC3D6E005EC2A6 /* RainViewController.m in Sources */,
+				0C53FC2E24BC5A3C005EC2A6 /* LikeViewController.m in Sources */,
+				0C53FC0024BC3CFC005EC2A6 /* AppDelegate.m in Sources */,
+				0C53FC2B24BC595D005EC2A6 /* FireworksViewController.m in Sources */,
+				0C53FC3124BC5A4E005EC2A6 /* LikeButton.m in Sources */,
+				0C53FC1124BC3CFF005EC2A6 /* main.m in Sources */,
+				0C53FC0324BC3CFC005EC2A6 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0C53FC0724BC3CFC005EC2A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C53FC0824BC3CFC005EC2A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C53FC0C24BC3CFF005EC2A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C53FC0D24BC3CFF005EC2A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C53FC1224BC3CFF005EC2A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0C53FC1324BC3CFF005EC2A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C53FC1524BC3CFF005EC2A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RJEmitterAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ru.test.RJEmitterAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C53FC1624BC3CFF005EC2A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RJEmitterAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ru.test.RJEmitterAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C53FBF624BC3CFC005EC2A6 /* Build configuration list for PBXProject "RJEmitterAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C53FC1224BC3CFF005EC2A6 /* Debug */,
+				0C53FC1324BC3CFF005EC2A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C53FC1424BC3CFF005EC2A6 /* Build configuration list for PBXNativeTarget "RJEmitterAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C53FC1524BC3CFF005EC2A6 /* Debug */,
+				0C53FC1624BC3CFF005EC2A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C53FBF324BC3CFC005EC2A6 /* Project object */;
+}
